@@ -1,6 +1,8 @@
 <p style="color: green"><%= notice %></p>
 
 <h1>Names</h1>
++
++ <%= turbo_stream_from 'names' %>
 
 <div id="names">
   <% @names.each do |name| %>
@@ -12,3 +14,4 @@
 </div>
 
 <%= link_to "New name", new_name_path %>
+</div>
