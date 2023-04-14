@@ -1,7 +1,7 @@
-<div id="<%= dom_id name %>">
-  <p>
-    <strong>Name:</strong>
-    <%= name.name %>
-  </p>
+<%= turbo_frame_tag(dom_id name) do %>
+    <p>
+      <strong>Name:</strong>
+      <%= name.name %>
+    </p>
 
-</div>
+<% end %>
