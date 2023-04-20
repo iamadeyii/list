@@ -37,3 +37,4 @@
 #ignore yaml 
 Dockerfile
 fly.toml
+notes.md
